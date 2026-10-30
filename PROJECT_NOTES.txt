@@ -1,0 +1,123 @@
+ROLLS-ROYCE LUXURY WEBSITE
+==========================
+
+PROJECT OVERVIEW
+----------------
+This project is a premium, responsive website inspired by the design language,
+elegance and craftsmanship associated with Rolls-Royce Motor Cars.
+
+The website uses a refined black-and-gold colour palette, cinematic imagery,
+elegant typography and subtle animations to create a luxury experience.
+
+PROJECT FILES
+-------------
+1. index.html
+   The complete website. It includes the page structure, styling and
+   JavaScript interactions in one file.
+
+2. README.md
+   A short project overview and instructions for running the website.
+
+3. PROJECT_NOTES.txt
+   This document. It explains the project, its sections and technologies.
+
+WEBSITE SECTIONS
+----------------
+1. HEADER AND NAVIGATION
+   - Rolls-Royce wordmark
+   - Navigation links for Our Story, The Collection, Bespoke and Enquiries
+   - Responsive menu for smaller screens
+
+2. HERO SECTION
+   - Full-screen cinematic background image
+   - Main heading: "Effortless. Extraordinary."
+   - Introductory message
+   - Button linking to the vehicle collection
+
+3. OUR STORY
+   - Introduction to the marque's heritage and philosophy
+   - Editorial typography and centred layout
+
+4. THE COLLECTION
+   - Phantom
+   - Ghost
+   - Cullinan
+   - Spectre
+   Each vehicle is presented with an image, short descriptor and discovery link.
+
+5. BESPOKE
+   - Dedicated section about personalisation and craftsmanship
+   - Large visual panel and descriptive text
+
+6. BRAND PHILOSOPHY
+   - Quote-led visual section expressing the pursuit of excellence
+
+7. ENQUIRIES AND FOOTER
+   - Link to the official Rolls-Royce Motor Cars website
+   - Footer note identifying this as an independent design concept
+
+DESIGN FEATURES
+---------------
+- Luxury black, charcoal, cream and gold colour palette
+- Cormorant Garamond display typography
+- Manrope body typography
+- Large editorial headings and generous spacing
+- Cinematic photographic backgrounds
+- Hover effects on vehicle cards and buttons
+- Scroll-reveal animations
+- Responsive layout for desktop, tablet and mobile
+- Reduced-motion support for accessibility
+
+TECHNOLOGIES USED
+-----------------
+HTML5:
+  Provides the page structure and semantic content.
+
+CSS3:
+  Provides layout, colours, typography, responsive behaviour,
+  transitions and visual effects.
+
+JavaScript:
+  Controls the mobile navigation, footer year and scroll-reveal animations.
+
+Google Fonts:
+  Cormorant Garamond and Manrope are loaded from Google Fonts.
+
+Unsplash:
+  Remote photographic images are used for visual presentation.
+
+HOW TO OPEN THE WEBSITE
+-----------------------
+1. Open the GitHub repository.
+2. Open the file named index.html.
+3. Download the file if you want to run it on your computer.
+4. Double-click index.html to open it in a modern web browser.
+5. An internet connection is needed for the externally hosted fonts and images.
+
+HOW TO ENABLE GITHUB PAGES
+--------------------------
+1. Open the repository on GitHub.
+2. Select Settings.
+3. Open Pages from the left-side menu.
+4. Under Build and deployment, select Deploy from a branch.
+5. Choose the main branch and the /(root) folder.
+6. Press Save.
+7. Wait for GitHub Pages to publish the site. GitHub will display the website URL
+   in the Pages settings when it is ready.
+
+PROJECT PURPOSE
+---------------
+The purpose of this project is to demonstrate a polished luxury-brand landing
+page using core front-end web technologies. It is suitable as a learning,
+practice or portfolio website.
+
+IMPORTANT DISCLAIMER
+--------------------
+This is an independent, unofficial design concept created for educational
+and portfolio purposes. It is not an official Rolls-Royce Motor Cars website
+and is not affiliated with, sponsored by or endorsed by Rolls-Royce.
+Brand names and vehicle names are used only to identify the subject of the
+design concept.
+
+END OF PROJECT NOTES
+====================
