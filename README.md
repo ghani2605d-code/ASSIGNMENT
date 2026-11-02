@@ -1,17 +1,21 @@
-# Rolls-Royce — The Art of Bespoke
+# Bakerz Bite — The Royal Patisserie
 
-A premium, responsive Rolls-Royce-inspired showcase landing page built with HTML, CSS and vanilla JavaScript.
+A responsive single-page bakery and café website concept prepared for the Aptech eProject.
 
 ## Features
-- Cinematic hero section and luxury black-and-gold visual direction
-- Responsive navigation for desktop and mobile
-- Brand story and four-model collection showcase
-- Bespoke craftsmanship feature and enquiry section
-- Subtle scroll-reveal motion with reduced-motion support
-- No build tools or dependencies required
+- Premium responsive landing page and mobile navigation
+- Product catalogue for Cakes, Pastries, Cookies, Pies and Merchandise
+- Category filters, live search and price sorting
+- Product detail popups with images, descriptions and ingredient/specification lists
+- Demo shopping bag counter and add-to-bag interactions
+- Gallery, about/story, offer banner and customer feedback form
+- Live date/time ticker
 
 ## Run locally
-Open `index.html` in any modern browser.
+Open `index.html` in a modern browser. Internet access is required for Google Fonts and remote Unsplash photography.
 
-## Note
-This is an independent design concept for learning and portfolio purposes. It is not an official Rolls-Royce Motor Cars website and is not affiliated with or endorsed by Rolls-Royce.
+## Before production
+Replace the sample email, phone number, testimonials, prices and product information with verified business details. Connect checkout, orders and feedback to a backend before accepting real orders. Product imagery and ingredient lists are demonstration content; verify allergens and ingredients with the bakery.
+
+## Technology
+HTML5, CSS3 and vanilla JavaScript. No build step required.
