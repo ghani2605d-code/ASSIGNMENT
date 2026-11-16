@@ -12,6 +12,100 @@
 <style>
 :root{--dark:#21120e;--gold:#c99d5b;--cream:#fbf5ec;--muted:#89766a;--line:#eadfd1;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:#fffdf9;color:var(--dark);font-family:var(--sans)}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.announcement{background:var(--dark);color:#e8cca0;text-align:center;padding:10px;font-size:9px;letter-spacing:2px;text-transform:uppercase}header{position:sticky;top:0;z-index:10;background:#fffdf9ed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1200px;margin:auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px}.seal{width:42px;height:42px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font:700 22px var(--serif)}.brand b{font:700 18px var(--serif);letter-spacing:1px}.brand small{display:block;color:var(--muted);font-size:8px;letter-spacing:3px}.navlinks{display:flex;gap:22px}.navlinks a{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#70594d}.navlinks a:hover{color:#b07b3c}.bag,.hamb{background:none;border:1px solid var(--line);padding:10px 13px;font-size:10px}.hamb{display:none}.hero{min-height:620px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,#180c0bdc,#180c0b26),url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=2000&q=90') center/cover}.hero-inner{max-width:1200px;width:100%;margin:auto;padding:85px 24px}.kicker{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#bd9152}.hero h1{font:600 clamp(52px,7vw,90px)/1.03 var(--serif);margin:20px 0}.hero h1 em{color:#e5c58e}.hero p{max-width:450px;color:#f0e2d5;font-size:13px;line-height:1.9}.btn{display:inline-block;border:1px solid var(--gold);background:var(--gold);color:#21120e;padding:14px 21px;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer}.btn.ghost{background:transparent;color:white;margin-left:8px}.section{max-width:1200px;margin:auto;padding:82px 24px}.head{text-align:center;max-width:620px;margin:0 auto 38px}.head h2{font:600 clamp(34px,4vw,50px) var(--serif);margin:10px 0}.head p{color:var(--muted);font-size:12px;line-height:1.8}.filters{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-bottom:25px}.chip{border:1px solid var(--line);border-radius:25px;padding:10px 16px;background:transparent;font-size:9px;text-transform:uppercase;letter-spacing:1px}.chip.active,.chip:hover{background:var(--dark);color:white;border-color:var(--dark)}.toolbar{display:flex;justify-content:space-between;gap:12px;margin-bottom:18px}.toolbar input,.toolbar select,.form input,.form select,.form textarea{border:1px solid var(--line);background:white;padding:12px;color:var(--dark)}.toolbar input{width:min(320px,65%)}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.product{border:1px solid #f0e7dc;background:white;transition:.25s}.product:hover{transform:translateY(-5px);box-shadow:0 15px 35px #28150d12}.product img{width:100%;height:205px;object-fit:cover;display:block}.pinfo{padding:15px}.pinfo small{font-size:8px;color:#a77b42;letter-spacing:2px;text-transform:uppercase}.pinfo h3{font:600 18px var(--serif);margin:7px 0}.pinfo p{font-size:10px;color:var(--muted);line-height:1.6;min-height:32px}.price-line{display:flex;justify-content:space-between;align-items:center}.price{font-weight:700;font-size:12px}.mini{background:var(--dark);color:white;border:0;padding:9px 11px;font-size:8px;letter-spacing:1px}.empty{grid-column:1/-1;text-align:center;padding:40px;color:var(--muted)}.story{background:var(--dark);color:white}.story-inner{max-width:1200px;margin:auto;padding:82px 24px;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.story img{width:100%;height:440px;object-fit:cover}.story h2{font:600 clamp(38px,4vw,54px) var(--serif);margin:12px 0}.story p{font-size:12px;line-height:2;color:#d3c0b2}.stats{display:flex;gap:28px;margin-top:25px}.stats strong{display:block;color:#e5c58e;font:600 27px var(--serif)}.stats span{font-size:8px;color:#cbb7a7;text-transform:uppercase;letter-spacing:1px}.offer{background:#efe1d0}.offer-inner{max-width:1200px;margin:auto;padding:60px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.offer h2{font:600 40px var(--serif);margin:10px 0}.offer p{font-size:12px;color:#765f50}.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:175px;gap:10px}.gallery img{width:100%;height:100%;object-fit:cover}.gallery img:first-child{grid-row:span 2}.gallery img:last-child{grid-column:span 2}.reviews{background:#f5ecdf}.review-grid{max-width:980px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:22px}.review-card{background:white;padding:26px;border:1px solid var(--line)}.stars{color:#bd8c4b;letter-spacing:3px}.review-card blockquote{font:italic 16px/1.7 var(--serif);color:#70594d;margin:15px 0}.form{display:grid;gap:10px}.form h3{font:600 23px var(--serif);margin:0}.form textarea{min-height:85px}footer{background:#1b0e0b;color:#f8eddf;padding:55px 24px 22px}.footgrid{max-width:1200px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px}.footgrid h4{font:600 17px var(--serif);color:#e4c38f}.footgrid p,.footgrid a{font-size:10px;line-height:2;color:#c9b6a7}.copyright{max-width:1200px;margin:28px auto 0;padding-top:16px;border-top:1px solid #49332a;display:flex;justify-content:space-between;font-size:9px;color:#a88f7e}.ticker{position:fixed;bottom:0;left:0;right:0;z-index:15;background:var(--gold);color:#21120e;padding:7px 12px;display:flex;justify-content:space-between;font-size:9px}.modal{display:none;position:fixed;inset:0;z-index:40;background:#120806dc;align-items:center;justify-content:center;padding:18px}.modal.show{display:flex}.modalbox{position:relative;background:#fffaf3;max-width:760px;width:100%;max-height:90vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr}.modalbox img{width:100%;height:100%;min-height:360px;object-fit:cover}.modaltext{padding:30px}.modaltext h2{font:600 30px var(--serif)}.modaltext p,.modaltext li{font-size:11px;line-height:1.8;color:#765f50}.close{position:absolute;right:10px;top:7px;border:0;background:white;font-size:25px}.toast{position:fixed;right:18px;bottom:45px;z-index:50;background:var(--dark);color:white;padding:13px 18px;font-size:11px;opacity:0;transition:.2s}.toast.show{opacity:1}
 @media(max-width:900px){.navlinks{gap:12px}.products{grid-template-columns:repeat(2,1fr)}.footgrid{grid-template-columns:1fr 1fr}}@media(max-width:650px){.nav{padding:11px 16px}.hamb{display:block}.navlinks{display:none;position:absolute;top:66px;left:0;right:0;background:#fffdf9;padding:20px;flex-direction:column}.navlinks.open{display:flex}.hero{min-height:560px}.hero-inner{padding:60px 20px}.section{padding:60px 17px}.product img{height:160px}.pinfo{padding:11px}.pinfo h3{font-size:16px}.toolbar{flex-direction:column}.toolbar input{width:100%}.story-inner{grid-template-columns:1fr;padding:60px 18px;gap:25px}.story img{height:300px}.offer-inner{display:block;padding:50px 20px}.gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:135px}.gallery img:last-child{grid-column:span 1}.review-grid{grid-template-columns:1fr}.footgrid{grid-template-columns:1fr 1fr}.copyright{display:block;line-height:2}.modalbox{grid-template-columns:1fr}.modalbox img{height:210px;min-height:0}.modaltext{padding:22px}.ticker{font-size:7px}}@media(max-width:380px){.products{grid-template-columns:1fr}.product img{height:220px}}
+
+/* CHOCOLATE LUXURY — complete visual skin */
+:root{--dark:#24130f;--gold:#c58b52;--cream:#f7eee3;--muted:#8b7162;--line:#e3d0bd;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+html{background:#f7eee3}
+body{background:#f7eee3;color:#2b1913}
+.announcement{background:#1c0e0a;color:#e8c69d;padding:12px 16px;letter-spacing:2.5px}
+header{background:rgba(248,239,228,.96);border-bottom:1px solid #dfc7ae;box-shadow:0 8px 30px #2b160d0b}
+.nav{padding-top:16px;padding-bottom:16px}
+.seal{background:#2a1711;color:#e8c69d;border:1px solid #c58b52;box-shadow:0 0 0 4px #c58b5220}
+.brand b{color:#2a1711;letter-spacing:1.8px}
+.brand small{color:#98765f}
+.navlinks a{color:#604536;font-weight:600}
+.navlinks a:hover{color:#b8753e}
+.bag,.hamb{background:#2b1711;color:#f8ead9;border:1px solid #b77a43;letter-spacing:1px}
+.hero{min-height:680px;background:linear-gradient(90deg,rgba(25,10,6,.92) 0%,rgba(37,17,10,.72) 48%,rgba(37,17,10,.16) 100%),url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=2000&q=90') center/cover}
+.hero-inner{padding-top:110px;padding-bottom:110px}
+.kicker{color:#bd8953;letter-spacing:3.2px}
+.hero h1{font-size:clamp(58px,8vw,104px);text-shadow:0 8px 35px #0005}
+.hero h1 em{color:#e9bd83}
+.hero p{font-size:14px;color:#f2e3d3;max-width:490px}
+.btn{background:linear-gradient(135deg,#d6a36c,#b7773e);border:1px solid #e2b783;color:#24130f;padding:15px 24px;box-shadow:0 8px 22px #170b0730;transition:transform .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 13px 28px #170b0745}
+.btn.ghost{background:rgba(35,16,10,.24);border-color:#e7c49b;color:#fff2e4;box-shadow:none}
+.section{padding-top:100px;padding-bottom:100px}
+.head{margin-bottom:48px}
+.head h2{color:#2c1710;font-size:clamp(38px,4.5vw,58px)}
+.head p{color:#80695a;font-size:13px}
+#collection{background:radial-gradient(ellipse at 50% 0%,#fffaf4 0%,#f7eee3 72%)}
+.chip{background:#fdf7ef;color:#654b3a;border-color:#ddc7b2;transition:.2s}
+.chip.active,.chip:hover{background:#2b1711;color:#f8e9d8;border-color:#2b1711}
+.toolbar input,.toolbar select,.form input,.form select,.form textarea{background:#fffaf4;border:1px solid #dfc8b2;color:#2b1913;border-radius:2px;outline:none}
+.toolbar input:focus,.toolbar select:focus,.form input:focus,.form select:focus,.form textarea:focus{border-color:#bd8953;box-shadow:0 0 0 3px #bd89531c}
+.products{gap:22px}
+.product{background:#fffaf4;border:1px solid #e6d4c2;box-shadow:0 8px 24px #351c1010;overflow:hidden;transition:transform .3s,box-shadow .3s}
+.product:hover{transform:translateY(-8px);box-shadow:0 20px 42px #351c1020}
+.product img{height:235px;filter:saturate(.92)}
+.pinfo{padding:19px}
+.pinfo small{color:#a76b38;letter-spacing:2.2px}
+.pinfo h3{font-size:21px;color:#2b1710}
+.pinfo p{font-size:11px;color:#80695a}
+.price{color:#6d3c23;font-size:13px}
+.mini{background:#2b1711;color:#f8e9d8;border:1px solid #2b1711;padding:10px 13px;cursor:pointer;transition:.2s}
+.mini:hover{background:#bd8953;color:#24130f;border-color:#bd8953}
+.story{background:radial-gradient(circle at 90% 10%,#583222 0%,#2b1711 42%,#1a0d09 100%);position:relative;overflow:hidden}
+.story:before{content:'BAKERZ BITE';position:absolute;right:-30px;top:25px;font:700 clamp(55px,10vw,140px) var(--serif);color:#fff;opacity:.025;white-space:nowrap}
+.story-inner{position:relative;padding-top:105px;padding-bottom:105px}
+.story img{border:8px solid #f2e3d2;box-shadow:0 25px 60px #0005}
+.story h2{font-size:clamp(42px,5vw,62px)}
+.story p{color:#e1cdbb;font-size:13px}
+.stats strong{color:#e5b77d}
+.stats span{color:#d2bba7}
+.offer{background:linear-gradient(115deg,#ead5bd,#f7e9d8 55%,#e5c6a5);position:relative}
+.offer-inner{padding-top:76px;padding-bottom:76px}
+.offer h2{color:#2b1711;font-size:clamp(38px,5vw,54px)}
+.offer p{color:#76533e}
+.gallery img{border:4px solid #fff8ef;box-shadow:0 8px 22px #351c1018;transition:transform .3s,filter .3s;filter:saturate(.9)}
+.gallery img:hover{transform:scale(1.025);filter:saturate(1.08)}
+.reviews{background:#efe1d1}
+.review-card{background:#fff9f1;border:1px solid #e2cbb5;box-shadow:0 10px 28px #351c100c}
+.review-card blockquote{color:#684a38;font-size:17px}
+.stars{color:#b77a43}
+.form h3{color:#2b1711}
+.form .btn{width:max-content}
+footer{background:linear-gradient(135deg,#1a0d09,#321b12 65%,#21110c);border-top:5px solid #b77a43}
+.footgrid h4{color:#e7bd8c}
+.footgrid p,.footgrid a{color:#d4bdab}
+.footgrid a:hover{color:#f0c58e}
+.copyright{border-color:#624331;color:#bca28d}
+.ticker{background:#c58b52;color:#24130f;border-top:1px solid #e4b77f;box-shadow:0 -5px 20px #1c0e0a18;font-weight:600;letter-spacing:.4px}
+.modal{background:#160a07e8;backdrop-filter:blur(7px)}
+.modalbox{background:#fff7ed;border:1px solid #d8b995;box-shadow:0 25px 80px #0008}
+.modaltext h2{color:#2b1711}
+.modaltext p,.modaltext li{color:#76533e}
+.modaltext h4{color:#593722}
+.close{background:#2b1711;color:#f8e9d8;width:34px;height:34px;cursor:pointer}
+.toast{background:#2b1711;border:1px solid #c58b52;color:#f8e9d8;box-shadow:0 10px 30px #0003}
+.empty{color:#80695a}
+::selection{background:#c58b52;color:#24130f}
+@media(max-width:650px){
+ .navlinks{background:#f8efe4;border-bottom:1px solid #dfc7ae;box-shadow:0 15px 25px #24130f18}
+ .hero{min-height:600px;background-position:58% center}
+ .hero-inner{padding-top:75px;padding-bottom:75px}
+ .hero h1{font-size:clamp(52px,14vw,76px)}
+ .section{padding-top:72px;padding-bottom:72px}
+ .product img{height:180px}
+ .pinfo{padding:13px}
+ .pinfo h3{font-size:17px}
+ .story-inner{padding-top:72px;padding-bottom:72px}
+ .story img{border-width:5px}
+ .offer-inner{padding-top:60px;padding-bottom:60px}
+ .gallery img{border-width:3px}
+ .ticker{font-size:7px}
+}
+
 </style></head><body>
 <div class="announcement">A little luxury, freshly baked daily · Free delivery on orders over Rs. 5,000</div>
 <header><div class="nav"><a class="brand" href="#home"><span class="seal">B</span><span><b>BAKERZ BITE</b><small>THE ROYAL PATISSERIE</small></span></a><nav class="navlinks" id="navlinks"><a href="#home">Home</a><a href="#collection">Collection</a><a href="#story">Our story</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav><div><button class="bag">BAG · <span id="bagcount">0</span></button> <button class="hamb" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button></div></div></header>
